@@ -110,7 +110,7 @@ class ConnectFour:
             player_wins_sound.play()
         label = self.myfont.render(message, 1, colors["DARKGREY"])
         screen.blit(label, (40, 10))
-        pygame.display.update()
+        pygame.display.update() #jkdhsfn;alfksjf;oasfdo;ak
 
     def handle_game_over(self):
         self.clear_label()
